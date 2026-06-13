@@ -3,7 +3,7 @@ pipeline {
     
     tools {
         // These names must match exactly what you named them in Step 2
-        jdk 'java17' 
+       // jdk 'java17' removing the java17 
         maven 'maven3'
     }
 
