@@ -9,7 +9,7 @@ pipeline {
         // 1. REPLACE THIS with the token you generated in SonarQube
         SONAR_TOKEN = 'squ_4fbc7f1ec72159d5175ee3efe9f28ba7a212124d'
         // This targets your Mac's localhost from inside the Jenkins container
-        SONAR_HOST_URL = 'http://host.docker.internal:9000'
+        SONAR_HOST_URL = 'https://host.docker.internal:9000'
     }
 
     stages {
